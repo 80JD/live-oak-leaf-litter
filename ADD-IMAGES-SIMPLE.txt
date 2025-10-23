@@ -1,0 +1,61 @@
+# How to Add Your Product Images - SIMPLE VERSION
+
+## You have 4 placeholder images on your homepage:
+
+1. **Main product image** (600x600px) - Shows "Lone Star Leaf Litter - Texas Live Oak"
+2. **Thumbnail 1** (150x150px) - Shows "Close Up"
+3. **Thumbnail 2** (150x150px) - Shows "In Terrarium"
+4. **Thumbnail 3** (150x150px) - Shows "Package"
+
+## Option 1: Use Your Amazon Images (Easiest)
+
+1. Go to your Amazon listing
+2. Right-click each product photo
+3. Select "Copy Image Address"
+4. Open index.html in a text editor (Notepad, TextEdit, etc.)
+5. Find these lines (around line 73-77):
+
+```html
+<img src="https://via.placeholder.com/600x600/8B4513/FFFFFF?text=Lone+Star+Leaf+Litter+-+Texas+Live+Oak"
+```
+
+6. Replace the URL with your Amazon image URL:
+
+```html
+<img src="YOUR_AMAZON_IMAGE_URL_HERE"
+```
+
+7. Do the same for the 3 thumbnail images below it
+8. Save the file
+9. Upload to GitHub (replace the old index.html)
+
+## Option 2: Upload Your Own Images
+
+1. Take/get 4 photos of your product:
+   - Main product shot
+   - Close-up of leaves
+   - Leaves in a terrarium
+   - Package/bag shot
+
+2. Name them:
+   - product-main.jpg
+   - product-closeup.jpg
+   - product-terrarium.jpg
+   - product-package.jpg
+
+3. Upload them to GitHub in an "images" folder
+
+4. In index.html, change the image sources to:
+
+```html
+<img src="images/product-main.jpg" alt="...">
+<img src="images/product-closeup.jpg" alt="...">
+<img src="images/product-terrarium.jpg" alt="...">
+<img src="images/product-package.jpg" alt="...">
+```
+
+## The placeholder images are brown/tan colored boxes
+
+They're clearly placeholders so you know exactly what to replace!
+
+When you visit your site at liveoakleaflitter.com, you'll see these brown placeholder boxes until you add your real images.
