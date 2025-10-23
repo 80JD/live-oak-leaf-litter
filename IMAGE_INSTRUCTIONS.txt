@@ -1,0 +1,54 @@
+# How to Add Your Amazon Product Images
+
+## Quick Instructions:
+
+1. **Get Your Image URLs from Amazon:**
+   - Go to your Amazon listing: https://www.amazon.com/Lone-Star-Leaf-Litter-Enrichment/dp/B0DK7MGN33
+   - Right-click on each product image
+   - Select "Copy Image Address" or "Copy Image Link"
+
+2. **Replace the Placeholder Images in index.html:**
+
+Find these lines in your index.html file:
+
+```html
+<!-- Main Product Image (Line ~308) -->
+<img src="https://via.placeholder.com/600x600/8B4513/FFFFFF?text=Your+Product+Image+1" alt="Lone Star Leaf Litter - Texas Live Oak" style="max-width: 100%; border: 3px solid #000;">
+
+<!-- Thumbnail Images (Lines ~311-313) -->
+<img src="https://via.placeholder.com/150x150/8B4513/FFFFFF?text=Image+2" alt="Product view 2" style="width: 150px; border: 2px solid #000; margin: 0.5rem;">
+<img src="https://via.placeholder.com/150x150/8B4513/FFFFFF?text=Image+3" alt="Product view 3" style="width: 150px; border: 2px solid #000; margin: 0.5rem;">
+<img src="https://via.placeholder.com/150x150/8B4513/FFFFFF?text=Image+4" alt="Product view 4" style="width: 150px; border: 2px solid #000; margin: 0.5rem;">
+```
+
+Replace the `src="..."` part with your actual Amazon image URLs.
+
+## Example:
+
+BEFORE:
+```html
+<img src="https://via.placeholder.com/600x600/8B4513/FFFFFF?text=Your+Product+Image+1" ...>
+```
+
+AFTER (with your real image):
+```html
+<img src="https://m.media-amazon.com/images/I/81ABC123DEF.jpg" ...>
+```
+
+## Alternative - Use Your Own Photos:
+
+If you have your own product photos saved locally:
+1. Upload them to a free image hosting service like:
+   - Imgur.com
+   - ImgBB.com
+   - Or add them to your GitHub repository
+2. Copy the direct image link
+3. Replace the placeholder URLs with your image links
+
+## Tips:
+- Use high-quality images (at least 600x600px for the main image)
+- Make sure images show your product clearly
+- Consider showing: the bag, leaves spread out, leaves in a terrarium setup
+- Keep file sizes reasonable (under 1MB per image)
+
+Your site will look much more professional with real product photos!
