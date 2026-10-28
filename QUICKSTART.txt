@@ -17,7 +17,7 @@
 - No action needed from you
 
 ### Step 4: Check Your Domain (1 minute)
-- Visit liveoakleaflitter.com
+- Visit lonestarleaflitter.com
 - Your new site should be live!
 - If it's not working yet, wait another 5 minutes
 
