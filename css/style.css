@@ -395,3 +395,9 @@ a{color:#111}.main-nav{background:#fff;border-bottom:1px solid #111;padding:12px
 
 /* Full-color product photography; crisp vector masthead. */
 .hero-product img,.habitat-grid img{filter:none}.brand-artwork{width:580px;max-width:90%;margin:24px auto}@media(max-width:768px){.brand-artwork{width:300px;margin:20px auto}}
+
+/* Newspaper product plate: live text stays sharp at every screen size. */
+.hero-product .product-punchline{background:#111;color:#fff;border-top:4px double #fff;padding:18px 14px;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.25rem,2.4vw,1.9rem);line-height:1.1;font-weight:900;letter-spacing:-.035em;text-transform:uppercase}.hero-product{padding-bottom:0}.packing-note{border-bottom:4px double #111;max-width:1180px}.packing-note h2{max-width:780px}.packing-note>p:last-child{max-width:700px;font-size:1.1rem;line-height:1.7}.hero-copy .btn{max-width:100%;white-space:normal;text-align:center}@media(max-width:768px){.hero-product .product-punchline{font-size:1.45rem;padding:18px 10px}.packing-note>p:last-child{font-size:1rem}}
+
+/* Leaf ranch cartoons: complete artwork, never cropped. */
+.cartoon-section{border-block:4px double #111}.cartoon-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 40px;margin-bottom:30px}.cartoon-grid figure{margin:0;min-width:0}.cartoon-grid a{display:block;background:#fff}.cartoon-grid img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain}.cartoon-grid figcaption{border-top:1px solid #aaa;padding-top:12px;margin-top:12px;color:#444;font:italic 1rem/1.5 Georgia,serif}.cartoon-section>.btn{display:inline-block}@media(max-width:640px){.cartoon-grid{grid-template-columns:1fr;gap:30px}.cartoon-grid figcaption{font-size:.95rem}}
