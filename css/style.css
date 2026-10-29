@@ -401,3 +401,6 @@ a{color:#111}.main-nav{background:#fff;border-bottom:1px solid #111;padding:12px
 
 /* Leaf ranch cartoons: complete artwork, never cropped. */
 .cartoon-section{border-block:4px double #111}.cartoon-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 40px;margin-bottom:30px}.cartoon-grid figure{margin:0;min-width:0}.cartoon-grid a{display:block;background:#fff}.cartoon-grid img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain}.cartoon-grid figcaption{border-top:1px solid #aaa;padding-top:12px;margin-top:12px;color:#444;font:italic 1rem/1.5 Georgia,serif}.cartoon-section>.btn{display:inline-block}@media(max-width:640px){.cartoon-grid{grid-template-columns:1fr;gap:30px}.cartoon-grid figcaption{font-size:.95rem}}
+
+/* Illustrated masthead replaces the large wordmark. */
+.brand-artwork{width:440px;max-width:90%;margin:24px auto}@media(max-width:768px){.brand-artwork{width:300px;max-width:90%;margin:18px auto}}
